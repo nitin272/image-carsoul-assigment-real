@@ -1,0 +1,42 @@
+/* write your carousel css in this file */
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.backbtn{
+    text-align: center;
+    width: 100px;
+    justify-content: start;
+    cursor: pointer;
+}
+.forwardbtn{
+    text-align: center;
+    width: 100px;
+    justify-content: end;
+    cursor: pointer;
+}
+.img{
+    height: 550px;
+    width: 550px;
+}
+.title{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.541);
+    top: 100px;
+}
+.statement{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.541);
+    bottom: 100px;
+}
